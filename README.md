@@ -1,7 +1,9 @@
 # TR
 # WEB SİTEM YAYINDA !!!
 # 🚀 Yavuz Selim Çakmak - Personal Portfolio Website
+> 🔗 **Live Website** [www.yavuzselimcakmak.com](https://www.yavuzselimcakmak.com)
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Site-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](https://www.yavuzselimcakmak.com)
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?logo=tailwind-css&logoColor=white)
@@ -68,10 +70,13 @@ Proje; "Clean Code" prensiplerine ve ölçeklenebilir React bileşen yapısına 
 ## ⭐️ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
 
 ---
+
 # EN
 # MY WEBSITE IS LIVE !!!
 # 🚀 Yavuz Selim Çakmak - Personal Portfolio Website
+> 🔗 **Live Website** [www.yavuzselimcakmak.com](https://www.yavuzselimcakmak.com)
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Site-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](https://www.yavuzselimcakmak.com)
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?logo=tailwind-css&logoColor=white)
