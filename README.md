@@ -55,7 +55,7 @@ Proje; "Clean Code" prensiplerine ve ölçeklenebilir React bileşen yapısına 
 ├── .env.example           # API anahtarları için şablon çevre değişkeni dosyası
 ├── cypress.config.js      # Cypress test motoru ayarları
 └── package.json           # Proje bağımlılıkları ve betik (script) tanımları
-
+```
 ---
 
 ## 📬 İletişim
