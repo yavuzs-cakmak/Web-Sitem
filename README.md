@@ -66,3 +66,74 @@ Proje; "Clean Code" prensiplerine ve ölçeklenebilir React bileşen yapısına 
 **GitHub:** github.com/yavuzs-cakmak
 
 ## ⭐️ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
+
+---
+# EN
+# MY WEBSITE IS LIVE !!!
+# 🚀 Yavuz Selim Çakmak - Personal Portfolio Website
+
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?logo=tailwind-css&logoColor=white)
+![Cypress](https://img.shields.io/badge/Tested_with-Cypress-17202C?logo=cypress&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
+This project is my personal portfolio website, developed using modern web technologies with high performance, responsive design, and dual-language (Turkish / English) support. 
+
+Prioritizing user experience (UX), it is optimized to meet **Google Core Web Vitals (INP 56 ms)** standards. The project architecture is empowered by dynamic API integrations, global state management (Context API), custom hooks, and automated end-to-end (E2E) testing.
+
+---
+
+## ✨ Key Features
+
+* **🌓 Smart Dark & Light Mode:** Persists the user's theme preference in memory using the `useLocalStorage` hook. It ensures a zero flash of unstyled content (**Zero-FOUC**) with a pre-calculated CSS architecture designed to prevent browser repaint/reflow overhead.
+* **🌐 Dual-Language Support (i18n):** Real-time Turkish ↔ English content switching via Context API. All texts, buttons, and project cards dynamically update without a page reload.
+* **⚡ High Performance & Optimization:** Zero redundant CSS load with Tailwind CSS v4. Exceptional **INP (Interaction to Next Paint) score of 56 ms** on Google PageSpeed and Core Web Vitals benchmarks!
+* **📡 Asynchronous API Integration:** Project data is not static; it is fetched dynamically from the `reqres.in` REST API using Axios, with robust management of loading states.
+* **🎯 User Interaction & Analytics Logging:** Clicking the "Hire Me" button triggers smooth scrolling while asynchronously dispatching a `POST` log request to the API in the background, providing visual feedback to the user via React Toastify.
+* **🛡️ Industry-Standard E2E Testing Architecture:** All critical functionalities of the project (API responses, theme/language toggling, button interactions) undergo automated testing via **Cypress** using `data-cy` attributes.
+
+---
+
+## 🛠️ Technologies & Tools Used
+
+* **Frontend Framework:** React 19, Vite
+* **Styling & Design:** Tailwind CSS v4, FontAwesome Icons
+* **Networking & HTTP:** Axios
+* **Notifications:** React Toastify
+* **Quality Assurance & E2E Testing:** Cypress
+* **Code Standards:** ESLint (Flat Config)
+* **Version Control & Deployment:** Git, GitHub Pages / Vercel / Netlify
+
+---
+
+## 🏗️ Architecture and Folder Structure
+
+The project is structured according to "Clean Code" principles and a scalable React component architecture:
+
+```text
+├── cypress/               # Cypress E2E test scenarios and configurations
+│   └── e2e/
+│       └── portfolio.cy.js # Automation tests verifying API, UI, and State management
+├── src/
+│   ├── components/        # Reusable UI components (Hero, Header, Projects, etc.)
+│   ├── context/           # SiteContext (Global state management for Theme and Language)
+│   ├── data/              # Multi-language content data (TR/EN JSON/JS lists)
+│   ├── hooks/             # Custom React hooks (useSite, useLocalStorage)
+│   ├── App.jsx            # Main application wrapper and layout structure
+│   └── main.jsx           # React root render and Provider connections
+├── .env.example           # Template environment variables file for API keys
+├── cypress.config.js      # Cypress testing engine configurations
+└── package.json           # Project dependencies and script definitions
+```
+
+---
+
+## 📬 Contact
+
+Feel free to reach out for questions, job opportunities, or feedback:
+
+* **LinkedIn:** [linkedin.com/in/yavuzscakmak](https://linkedin.com/in/yavuzscakmak)
+* **GitHub:** [github.com/yavuzs-cakmak](https://github.com/yavuzs-cakmak)
+
+## ⭐️ *If you like this project, don't forget to give it a star!*
