@@ -14,7 +14,7 @@ function Projects(){
      const fetchProjects = async () => {
       try{
         setLoading(true);
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        await new Promise(resolve => setTimeout(resolve, 1500));
         const response= await axios.post('https://reqres.in/api/workintech', defaultData.list, {
     headers: {
       'x-api-key': import.meta.env.VITE_API_KEY 
